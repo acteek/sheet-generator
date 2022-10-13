@@ -4,5 +4,6 @@
 *.test
 *.out
 *.csv
-
+*.xls
+*.xlsx
 
