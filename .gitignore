@@ -1,0 +1,8 @@
+### Go template
+
+.idea
+*.test
+*.out
+*.csv
+
+
