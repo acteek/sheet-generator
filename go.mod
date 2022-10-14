@@ -1,4 +1,4 @@
-module csv-generator
+module sheet-generator
 
 go 1.18
 
