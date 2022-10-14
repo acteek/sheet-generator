@@ -18,7 +18,7 @@ Usage of ./sheet-generator:
   -size string
         Size of file(low, middle, big) (default "middle")  
 ```
-##Example 
+## Example 
 
 ```bash
 ./sheet-generator -line=2000 -lang=en -size=low -format=csv
