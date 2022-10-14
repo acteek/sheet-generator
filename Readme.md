@@ -4,9 +4,23 @@
 env GOOS=windows GOARCH=amd64 go build  .  # for Windows
 env GOOS=linux GOARCH=amd64 go build .     # for Linux
 ```
-## Run
--c flag set a count of lines, default 1000
+
+
+## Usage
+```bash
+Usage of ./sheet-generator:
+  -format string
+        Format of file(xlsx, csv) (default "xlsx")
+  -lang string
+        Faker Language(ru, en) (default "ru")
+  -line int
+        Count of lines (default 10000)
+  -size string
+        Size of file(low, middle, big) (default "middle")  
+```
+##Example 
 
 ```bash
-./csv-generator -c=100
+./sheet-generator -line=2000 -lang=en -size=low -format=csv
+
 ```
